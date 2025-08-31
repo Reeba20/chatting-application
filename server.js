@@ -1,5 +1,7 @@
 // const io = require('socket.io')(3000)
 const { Server } = require("socket.io");
+const socket = io('https://your-backend-app.herokuapp.com'); 
+
 const io = new Server(3000, {
   cors: {
     origin: "http://127.0.0.1:5500", // allow your frontend
