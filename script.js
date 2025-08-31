@@ -1,5 +1,5 @@
-// const socket = io('http://localhost:3000')
-const socket = io("https://chatting-application-blgr.onrender.com");
+const socket = io('http://localhost:3000')
+// const socket = io("https://chatting-application-blgr.onrender.com");
 
 const messageContainer = document.getElementById('message-container')
 const messageInput =document.getElementById('message-input')
